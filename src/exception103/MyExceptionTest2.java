@@ -27,7 +27,7 @@ public class MyExceptionTest2 {
         try {
             sayHello("Jame");
         } catch (MyException e) {
-            System.out.println(e.getMessage());
+             System.out.println(e.getMessage());
         }
     }
 }
